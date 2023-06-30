@@ -3,7 +3,7 @@ import WidgetKit
 
 /// Timeline provider that only triggers on manual widget updates.
 /// Use ``WidgetCenter.shared.reloadTimelines(ofKind: )`` to update the widget.
-struct ManualUpdateProvider: TimelineProvider {
+struct ManualUpdateTimelineProvider: TimelineProvider {
 
     func placeholder(in context: Context) -> DateEntry {
         DateEntry(date: Date())

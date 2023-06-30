@@ -8,7 +8,7 @@ struct TheGameApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .modelContainer(for: [Loss.self])
+                .modelContainer(try! .shared)
         }
     }
 }

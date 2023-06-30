@@ -6,7 +6,7 @@ import SwiftData
 
 
 struct StatisticsWidgetView : View {
-    var entry: ManualUpdateProvider.Entry
+    var entry: ManualUpdateTimelineProvider.Entry
     
     @Query
     var losses: [Loss]

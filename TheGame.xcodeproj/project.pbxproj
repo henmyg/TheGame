@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C77A0F42A4F4D3700413FBB /* LoseIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0F32A4F4D3700413FBB /* LoseIntent.swift */; };
+		0C77A0F62A4F524600413FBB /* ModelContainer+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0F52A4F524600413FBB /* ModelContainer+shared.swift */; };
+		0C77A0F72A4F538400413FBB /* ModelContainer+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0F52A4F524600413FBB /* ModelContainer+shared.swift */; };
 		0CDE6F132A4E065000B68B9F /* TheGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F122A4E065000B68B9F /* TheGameApp.swift */; };
 		0CDE6F152A4E065000B68B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F142A4E065000B68B9F /* ContentView.swift */; };
 		0CDE6F172A4E065400B68B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE6F162A4E065400B68B9F /* Assets.xcassets */; };
@@ -19,9 +22,11 @@
 		0CDE6F322A4F292A00B68B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE6F312A4F292A00B68B9F /* Assets.xcassets */; };
 		0CDE6F362A4F292A00B68B9F /* TheGameWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0CDE6F262A4F292400B68B9F /* TheGameWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0CDE6F3B2A4F29B200B68B9F /* Loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F202A4E132600B68B9F /* Loss.swift */; };
-		0CDE6F402A4F2EB200B68B9F /* ManualUpdateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F3E2A4F2E7D00B68B9F /* ManualUpdateProvider.swift */; };
+		0CDE6F402A4F2EB200B68B9F /* ManualUpdateTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F3E2A4F2E7D00B68B9F /* ManualUpdateTimelineProvider.swift */; };
 		0CDE6F432A4F302300B68B9F /* DateEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F412A4F301200B68B9F /* DateEntry.swift */; };
 		0CDE6F452A4F306400B68B9F /* StatisticsWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F442A4F306400B68B9F /* StatisticsWidgetView.swift */; };
+		0CDE6F472A4F37FB00B68B9F /* LoseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F462A4F37FB00B68B9F /* LoseWidget.swift */; };
+		0CDE6F492A4F380D00B68B9F /* LoseWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F482A4F380D00B68B9F /* LoseWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C77A0F32A4F4D3700413FBB /* LoseIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseIntent.swift; sourceTree = "<group>"; };
+		0C77A0F52A4F524600413FBB /* ModelContainer+shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelContainer+shared.swift"; sourceTree = "<group>"; };
 		0CDE6F0F2A4E065000B68B9F /* TheGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDE6F122A4E065000B68B9F /* TheGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGameApp.swift; sourceTree = "<group>"; };
 		0CDE6F142A4E065000B68B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,9 +71,11 @@
 		0CDE6F332A4F292A00B68B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CDE6F3C2A4F2D5400B68B9F /* TheGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheGame.entitlements; sourceTree = "<group>"; };
 		0CDE6F3D2A4F2D7C00B68B9F /* TheGameWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheGameWidgetExtension.entitlements; sourceTree = "<group>"; };
-		0CDE6F3E2A4F2E7D00B68B9F /* ManualUpdateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualUpdateProvider.swift; sourceTree = "<group>"; };
+		0CDE6F3E2A4F2E7D00B68B9F /* ManualUpdateTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualUpdateTimelineProvider.swift; sourceTree = "<group>"; };
 		0CDE6F412A4F301200B68B9F /* DateEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEntry.swift; sourceTree = "<group>"; };
 		0CDE6F442A4F306400B68B9F /* StatisticsWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsWidgetView.swift; sourceTree = "<group>"; };
+		0CDE6F462A4F37FB00B68B9F /* LoseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWidget.swift; sourceTree = "<group>"; };
+		0CDE6F482A4F380D00B68B9F /* LoseWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C77A0ED2A4F3CA800413FBB /* StatisticsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE6F2F2A4F292500B68B9F /* StatisticsWidget.swift */,
+				0CDE6F442A4F306400B68B9F /* StatisticsWidgetView.swift */,
+			);
+			path = StatisticsWidget;
+			sourceTree = "<group>";
+		};
+		0C77A0EE2A4F3CB300413FBB /* LoseWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE6F462A4F37FB00B68B9F /* LoseWidget.swift */,
+				0CDE6F482A4F380D00B68B9F /* LoseWidgetView.swift */,
+				0C77A0F32A4F4D3700413FBB /* LoseIntent.swift */,
+			);
+			path = LoseWidget;
+			sourceTree = "<group>";
+		};
 		0CDE6F062A4E065000B68B9F = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +143,7 @@
 				0CDE6F3C2A4F2D5400B68B9F /* TheGame.entitlements */,
 				0CDE6F142A4E065000B68B9F /* ContentView.swift */,
 				0CDE6F202A4E132600B68B9F /* Loss.swift */,
+				0C77A0F52A4F524600413FBB /* ModelContainer+shared.swift */,
 				0CDE6F122A4E065000B68B9F /* TheGameApp.swift */,
 				0CDE6F162A4E065400B68B9F /* Assets.xcassets */,
 				0CDE6F182A4E065400B68B9F /* Preview Content */,
@@ -144,11 +173,11 @@
 			children = (
 				0CDE6F332A4F292A00B68B9F /* Info.plist */,
 				0CDE6F412A4F301200B68B9F /* DateEntry.swift */,
-				0CDE6F3E2A4F2E7D00B68B9F /* ManualUpdateProvider.swift */,
-				0CDE6F2F2A4F292500B68B9F /* StatisticsWidget.swift */,
-				0CDE6F442A4F306400B68B9F /* StatisticsWidgetView.swift */,
+				0CDE6F3E2A4F2E7D00B68B9F /* ManualUpdateTimelineProvider.swift */,
 				0CDE6F2D2A4F292500B68B9F /* TheGameWidgetBundle.swift */,
 				0CDE6F312A4F292A00B68B9F /* Assets.xcassets */,
+				0C77A0EE2A4F3CB300413FBB /* LoseWidget */,
+				0C77A0ED2A4F3CA800413FBB /* StatisticsWidget */,
 			);
 			path = TheGameWidget;
 			sourceTree = "<group>";
@@ -255,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDE6F212A4E132600B68B9F /* Loss.swift in Sources */,
+				0C77A0F62A4F524600413FBB /* ModelContainer+shared.swift in Sources */,
 				0CDE6F152A4E065000B68B9F /* ContentView.swift in Sources */,
 				0CDE6F132A4E065000B68B9F /* TheGameApp.swift in Sources */,
 			);
@@ -264,12 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CDE6F402A4F2EB200B68B9F /* ManualUpdateProvider.swift in Sources */,
+				0CDE6F402A4F2EB200B68B9F /* ManualUpdateTimelineProvider.swift in Sources */,
+				0CDE6F492A4F380D00B68B9F /* LoseWidgetView.swift in Sources */,
 				0CDE6F3B2A4F29B200B68B9F /* Loss.swift in Sources */,
 				0CDE6F432A4F302300B68B9F /* DateEntry.swift in Sources */,
+				0C77A0F42A4F4D3700413FBB /* LoseIntent.swift in Sources */,
 				0CDE6F2E2A4F292500B68B9F /* TheGameWidgetBundle.swift in Sources */,
 				0CDE6F302A4F292500B68B9F /* StatisticsWidget.swift in Sources */,
+				0CDE6F472A4F37FB00B68B9F /* LoseWidget.swift in Sources */,
 				0CDE6F452A4F306400B68B9F /* StatisticsWidgetView.swift in Sources */,
+				0C77A0F72A4F538400413FBB /* ModelContainer+shared.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

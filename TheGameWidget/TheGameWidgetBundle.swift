@@ -7,5 +7,6 @@ import SwiftUI
 struct TheGameWidgetBundle: WidgetBundle {
     var body: some Widget {
         StatisticsWidget()
+        LoseWidget()
     }
 }

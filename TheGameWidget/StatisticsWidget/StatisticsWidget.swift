@@ -11,10 +11,10 @@ struct StatisticsWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(
             kind: kind,
-            provider: ManualUpdateProvider()
+            provider: ManualUpdateTimelineProvider()
         ) { entry in
             StatisticsWidgetView(entry: entry)
-                .modelContainer(for: [Loss.self])
+                .modelContainer(try! .shared)
         }
         .supportedFamilies([.systemMedium])
         .configurationDisplayName("Statistics widget")
