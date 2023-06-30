@@ -2,6 +2,7 @@
 
 import SwiftUI
 import SwiftData
+import WidgetKit
 
 struct ContentView: View {
     
@@ -48,6 +49,7 @@ struct ContentView: View {
     
     func doIt() {
         modelContext.insert(Loss(date: .now))
+        WidgetCenter.shared.reloadTimelines(ofKind: "StatisticsWidget")
     }
 }
 
