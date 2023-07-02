@@ -1,0 +1,13 @@
+@Tutorials(name: "Creating widgets") {
+    @Intro(title: "Creating widgets") {
+        In this tutorial we will go over the basics of adding widgets in Xcode 15/iOS 17
+        
+        The tutorial will cut corners and only show code of interest, so if you follow along, you might want to add more code than is presented here.)
+    }
+    
+    @Chapter(name: "Create the app") {
+        Start by creating an app
+        
+        @TutorialReference(tutorial: "doc:CreateApp")
+    }
+}

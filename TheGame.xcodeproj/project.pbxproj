@@ -10,6 +10,8 @@
 		0C77A0F42A4F4D3700413FBB /* LoseIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0F32A4F4D3700413FBB /* LoseIntent.swift */; };
 		0C77A0F62A4F524600413FBB /* ModelContainer+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0F52A4F524600413FBB /* ModelContainer+shared.swift */; };
 		0C77A0F72A4F538400413FBB /* ModelContainer+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0F52A4F524600413FBB /* ModelContainer+shared.swift */; };
+		0C77A0FA2A50AAB300413FBB /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0F92A50AAB200413FBB /* Documentation.docc */; };
+		0C77A0FD2A50AF0500413FBB /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0C77A0FC2A50AF0500413FBB /* Documentation.docc */; };
 		0CDE6F132A4E065000B68B9F /* TheGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F122A4E065000B68B9F /* TheGameApp.swift */; };
 		0CDE6F152A4E065000B68B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE6F142A4E065000B68B9F /* ContentView.swift */; };
 		0CDE6F172A4E065400B68B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE6F162A4E065400B68B9F /* Assets.xcassets */; };
@@ -56,6 +58,8 @@
 /* Begin PBXFileReference section */
 		0C77A0F32A4F4D3700413FBB /* LoseIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseIntent.swift; sourceTree = "<group>"; };
 		0C77A0F52A4F524600413FBB /* ModelContainer+shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelContainer+shared.swift"; sourceTree = "<group>"; };
+		0C77A0F92A50AAB200413FBB /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = SOURCE_ROOT; };
+		0C77A0FC2A50AF0500413FBB /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		0CDE6F0F2A4E065000B68B9F /* TheGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDE6F122A4E065000B68B9F /* TheGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGameApp.swift; sourceTree = "<group>"; };
 		0CDE6F142A4E065000B68B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,11 +124,12 @@
 		0CDE6F062A4E065000B68B9F = {
 			isa = PBXGroup;
 			children = (
+				0C77A0F92A50AAB200413FBB /* Documentation.docc */,
 				0CDE6F3D2A4F2D7C00B68B9F /* TheGameWidgetExtension.entitlements */,
-				0CDE6F112A4E065000B68B9F /* TheGame */,
-				0CDE6F2C2A4F292500B68B9F /* TheGameWidget */,
 				0CDE6F272A4F292400B68B9F /* Frameworks */,
 				0CDE6F102A4E065000B68B9F /* Products */,
+				0CDE6F112A4E065000B68B9F /* TheGame */,
+				0CDE6F2C2A4F292500B68B9F /* TheGameWidget */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +183,7 @@
 				0CDE6F312A4F292A00B68B9F /* Assets.xcassets */,
 				0C77A0EE2A4F3CB300413FBB /* LoseWidget */,
 				0C77A0ED2A4F3CA800413FBB /* StatisticsWidget */,
+				0C77A0FC2A50AF0500413FBB /* Documentation.docc */,
 			);
 			path = TheGameWidget;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				0CDE6F212A4E132600B68B9F /* Loss.swift in Sources */,
 				0C77A0F62A4F524600413FBB /* ModelContainer+shared.swift in Sources */,
 				0CDE6F152A4E065000B68B9F /* ContentView.swift in Sources */,
+				0C77A0FA2A50AAB300413FBB /* Documentation.docc in Sources */,
 				0CDE6F132A4E065000B68B9F /* TheGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +307,7 @@
 				0CDE6F432A4F302300B68B9F /* DateEntry.swift in Sources */,
 				0C77A0F42A4F4D3700413FBB /* LoseIntent.swift in Sources */,
 				0CDE6F2E2A4F292500B68B9F /* TheGameWidgetBundle.swift in Sources */,
+				0C77A0FD2A50AF0500413FBB /* Documentation.docc in Sources */,
 				0CDE6F302A4F292500B68B9F /* StatisticsWidget.swift in Sources */,
 				0CDE6F472A4F37FB00B68B9F /* LoseWidget.swift in Sources */,
 				0CDE6F452A4F306400B68B9F /* StatisticsWidgetView.swift in Sources */,

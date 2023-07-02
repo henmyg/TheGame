@@ -1,0 +1,77 @@
+@Tutorial(time: 25) {
+    @Intro(title: "Creating the foundation") {
+        We will start out by creating a simple app containing a button that will add events to a local database.
+        The app will also show some very basic statistics for the button press:
+        - when was it last pressed?
+        - how many times has it been pressed?
+    }
+    
+    
+    @Section(title: "View") {
+        Create an app. Remove the contents of ContentView and replace it with a button and two empty texts
+        @Steps {
+            @Step {
+                Start by creating a new Swift project where you uncheck tests
+                
+                @Image(source: "createapp.png", alt: "Create new app dialog")
+            }
+            
+            @Step {
+                Create the ``ContentView`` for the app. A ``Button`` and two ``Text``s will do. 
+                
+                @Code(name: "ContentView.swift", file: "ContentView1.swift") {
+                    @Image(source: "contentView", alt: "ContentView with a button and two texts")
+                }
+            }
+        }
+    }
+    
+    @Section(title: "Model") {
+        Add an Item model and a model container
+        @Steps {
+            @Step {
+                Create the model; an Item with a property ``date``
+                @Code(name: "Item.swift", file: "Item2.swift", previousFile: "Item1.swift")
+            }
+            @Step {
+                Store it in CoreData by adding the ``@Model`` macro
+                @Code(name: "Item.swift", file: "Item3.swift")
+            }
+
+            @Step {
+                Add a ``modelContainer`` for the ``Item`` to the app
+                @Code(name: "ExampleApp.swift", file: "App2.swift", previousFile: "App1.swift")
+            }
+        }
+    }
+        
+    @Section(title: "Control") {
+        Hook up the views to model. Make the button add new items to storage and show some basic statistics of the items in Storage in the two ``Text``s
+        @Steps {
+            @Step {
+                Make the action of the button add a new ``Item`` to the storage when the button is clicked
+                @Code(name: "ContentView.swift", file: "ContentView2.swift", previousFile: "ContentView1.swift")
+            }
+            
+            @Step {
+                Make a query that contains all items in storage
+                @Code(name: "ContentView.swift", file: "ContentView3.swift")
+            }
+            
+            @Step {
+                Show the date of the latest item in the first ``Text``
+                @Code(name: "ContentView.swift", file: "ContentView4.swift")
+            }
+            @Step {
+                Show the item count in the second ``Text``
+                @Code(name: "ContentView.swift", file: "ContentView5.swift")
+            }
+            
+            Let's test that the app works. To test it in Preview, add an inMemory modelContainer to the preview
+            @Step {
+                Add a modelContainer to Preview
+                @Code(name: "ContentView.swift", file: "ContentViewPreview2.swift", previousFile: "ContentViewPreview1.swift")
+            }
+        }
+    }
+}
